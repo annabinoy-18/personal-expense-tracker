@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/expenses";
+const API_URL = "https://personal-expense-tracker-gwd6.onrender.com/api/expenses";
 const CATEGORIES = ["Food", "Travel", "Bills", "Shopping", "Other"];
 
 const today = () => {
