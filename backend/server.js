@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
 
-const Expense = require("./models/Expense");
+const Expense = require("./models/expense");
 
 const app = express();
 
